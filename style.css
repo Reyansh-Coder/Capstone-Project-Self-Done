@@ -1,0 +1,177 @@
+/* Beautiful Science Theme */
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to bottom right, #141e30, #243b55);
+    color: #f1f1f1;
+}
+
+/* Navigation Bar */
+.topnav {
+    background: #0f1c2e;
+    padding: 16px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.topnav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 22px;
+    transition: 0.3s ease-in-out;
+    font-family: 'Dancing Script', cursive;
+}
+
+.topnav a:hover {
+    background-color: #ffc107;
+    color: #1a1a1a;
+    border-radius: 6px;
+}
+
+.topnav .active {
+    background-color: #ffd54f;
+    color: #212121;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('scientists-hero.jpg') center/cover no-repeat;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Content Section */
+.content-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+/* Headings */
+.main-title {
+    font-size: 42px;
+    text-align: center;
+    color: #ffe082;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #cccccc;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 40px;
+    color: #f5d76e;
+    border-bottom: 2px solid #f5d76e;
+    padding-bottom: 8px;
+}
+
+/* Scientist & Discovery Sections */
+.scientist-section,
+.discovery-section {
+    margin-bottom: 40px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+table th,
+table td {
+    padding: 14px 18px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table th {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffeb3b;
+    font-weight: bold;
+}
+
+table td {
+    color: #f0f0f0;
+}
+
+table tr:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Footer Note */
+.footer-note {
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 40px;
+    color: #cccccc;
+}
+
+/* About Page Specific */
+.about-container {
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.about-text h1 {
+    font-size: 36px;
+    color: #ffee58;
+}
+
+.about-text h2 {
+    font-size: 26px;
+    color: #fff59d;
+    margin-top: 30px;
+}
+
+.about-text p,
+.about-text ul {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f5f5f5;
+}
+
+.about-text ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-text ul li::before {
+    content: "⭐ ";
+    color: gold;
+}
